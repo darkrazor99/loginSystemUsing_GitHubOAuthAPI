@@ -4,7 +4,7 @@ A simple login system that uses the GitHub OAuth API As a way to register instea
 
 ## Getting Started
 make sure not to edit the name of the folder containing the code when you download it or to be more concise make sure the name of the folder containing this piece of code is loginSystemUsing_GitHubOAuthAPI-master.  
-because GitHub will redirect to http://localhost/loginSystemUsing_GitHubOAuthAPI-master/signup.php and if the folder containing the code has a different name an error would accrue.
+because GitHub will redirect to http://localhost/loginSystemUsing_GitHubOAuthAPI-master/signup.php and if the folder containing the code has a different name an error would occur.
 ### Database
 You need to create a database and then create a table named users with the following structure.  
 ```

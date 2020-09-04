@@ -1,0 +1,13 @@
+1- create a data base with this structure
+id int(11) AUTO_INCREMENT PRIMARY KEY  login VARCHAR(30) name VARCHAR(30) password VARCHAR(128) accessToken VARCHAR(128)
+the varchar things can be whatever size you want
+code:
+CREATE TABLE users(
+  id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+  login varchar(30) not null ,
+  name  varchar(30) not null ,
+  password varchar(128) not null ,
+  accessToken varchar(128) not null
+);
+2- things needed to setup this locally head to db class and edit it
+make sure the table name is users in order to avoid heading into the classes/user.class.php and edit the sql queries.

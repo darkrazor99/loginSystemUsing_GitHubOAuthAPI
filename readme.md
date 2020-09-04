@@ -3,7 +3,8 @@
 A simple login system that uses the GitHub OAuth API As a way to register instead of a normal registration from using PHP
 
 ## Getting Started
-
+make sure not to edit the name of the folder containing the code when you download it or to be more concise make sure the name of the folder containing this piece of code is loginSystemUsing_GitHubOAuthAPI-master.  
+because GitHub will redirect to http://localhost/loginSystemUsing_GitHubOAuthAPI-master/signup.php and if the folder containing the code has a different name an error would accrue.
 ### Database
 You need to create a database and then create a table named users with the following structure.  
 ```
@@ -47,4 +48,4 @@ After that the main difficulty was to figure out how I am going to send requests
 https://www.php.net/manual/en/book.curl.php  
 
 I also decided to save the access_token that gets returned on a successful authentication in my database and then use it to get any data I need from the user's GitHub profile instead of making a database with a field for everything and then inserting into it as I found this to be more convenient.  
-I am also using prepared statements when inserting to the database and hashing the passwords before inserting them. 
+I am also using prepared statements when inserting to the database and hashing the passwords before inserting them.
